@@ -7,7 +7,7 @@ A responsive and database-driven portfolio website with a secure admin panel to 
 ## 👤 User Side
 
 - Responsive Home Page
-- About Section
+- About Sectio
 - Skills Section
 - Projects Section
 - Education Section
@@ -53,7 +53,6 @@ A responsive and database-driven portfolio website with a secure admin panel to 
 
 - XAMPP
 - VS Code
-- Git
 - GitHub
 
 ---
@@ -62,29 +61,44 @@ A responsive and database-driven portfolio website with a secure admin panel to 
 
 ```
 Dynamic-Portfolio-With-Admin-Panel/
-│
-├── admin/
-│   ├── login.php
-│   ├── dashboard.php
-│   ├── skills.php
-│   ├── projects.php
-│   ├── education.php
-│   ├── experience.php
+uploads/
+└── Stores uploaded images (Projects, Team etc.)
+│   ├── contact-process.php
 │   ├── contact.php
-│   └── logout.php
-│
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   └── uploads/
-│
-├── database/
-│   └── portfolio.sql
-│
-├── includes/
-│
-├── index.php
+│   ├── db.php
+│   ├── footer.php
+│   ├── index.php
+│   ├── navbar.php
+│   ├── progress.php
+│   └── projects.php
+│   ├── pure-website.php
+│   └── skills.php
+    └── team.php
+├── Admin Penal/
+uploads/
+└── Stores uploaded images (Projects, Team etc.)
+│   ├── add-progress.php
+│   ├── add-project.php
+│   ├── add-skill.php
+│   ├── add-team.php
+│   ├── dashboard.php
+│   ├── db.php
+│   ├── delete-progress.php
+│   ├── delete-project.php
+│   ├── delete-skill.php
+│   ├── delete-team.php
+│   ├── edit-progress.php
+│   ├── edit-project.php
+│   ├── edit-skill.php
+│   ├── edit-team.php
+│   ├── footer.php
+|   ├── login.php
+|   ├── logout.php
+|   ├── progress-table.php
+|   ├── project-table.php
+|   ├── sidebar.php
+|   ├── skill-table.php
+|   ├── team-table.php
 │
 ic-Portfolio-With-Admin-Panel.git
 ```
