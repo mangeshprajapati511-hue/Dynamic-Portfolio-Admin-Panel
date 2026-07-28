@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Footer</title>
+    <title>Footer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
 </head>
+
 <body>
-    
-<footer class="bg-secondary">
+    <footer class="bg-secondary mb-3">
 
         <div class="container">
 
@@ -15,36 +18,12 @@
 
                 <div class="col-lg-12 text-center">
 
-                    <h1 class="text-white font-weight-light text-capitalize p-1">
-                        Pure Bootstrap Project
-                    </h1>
+                    <h4 class="text-white font-weight-light">
+                        Pure Admin Panel
+                    </h4>
 
-                    <!-- <h3 class="text-light font-weight-light font-italic mb-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
-                    </h3> -->
-
-                    <div class="py-2">
-
-                        <a href="#">
-                            <i class="fab fa-facebook fa-2x text-primary mx-3"></i>
-                        </a>
-
-                        <a href="#">
-                            <i class="fab fa-google-plus fa-2x text-danger mx-3"></i>
-                        </a>
-
-                        <a href="#">
-                            <i class="fab fa-youtube fa-2x text-danger mx-2"></i>
-                        </a>
-
-                        <a href="#">
-                            <i class="fab fa-twitter fa-2x text-info mx-2"></i>
-                        </a>
-
-                    </div>
-
-                    <p class="text-light mb-2 m-0">
-                        &copy;copyright 2026 - made by mangeshprajapati
+                    <p class="text-light m-0 font-weight-bold">
+                        &copy;copyright 2026 - made by @@prajapatimangesh
                     </p>
 
                 </div>
@@ -54,7 +33,6 @@
         </div>
 
     </footer>
-
-
 </body>
+
 </html>
